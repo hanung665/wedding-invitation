@@ -2,18 +2,18 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'Hanung Adi Wijaya',
+            child: 'Putra pertama',
+            father: 'Drs. Maruto Subahagija',
+            mother: 'Almh. Istantina',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'Dita Yessica Rahayuningtyas',
+            child: 'Putri satu-satunya',
+            father: 'Gatot Yunanto',
+            mother: 'Soekesi',
             image: './src/assets/images/cewe.png'
         },
 
@@ -22,31 +22,31 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2030',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2026',
+            month: 'Mei',
+            date: '31',
+            day: 'Minggu',
             hours: {
-                start: '08.00',
-                finish: 'Selesai'
+                start: '16.00',
+                finish: '17.00'
             }
         },
         reception: {
-            year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2026',
+            month: 'Juni',
+            date: '1',
+            day: 'Semim',
             hours: {
-                start: '11.00',
-                finish: 'Selesai'
+                start: '10.00',
+                finish: '17.00'
             }
         },
-        address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
+        address: 'Jl. Anggrek, Lingk. Wonorejo, Timur Terminal Lodoyo, Kel. Kalipang, Kec. Sutojayan, Kab. Blitar, Jawa Timur'
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.app.google/jozANZHg6HxbqnCCA',
+        map: 'https://maps.app.goo.gl/oVgHuP64zCnFUXNN8',
     },
 
     galeri: [
@@ -75,9 +75,9 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Lorem Ipsum',
+            name: 'Dita Yessica Rahayuningtyas',
             icon: './src/assets/images/bca.png',
-            rekening: '12345678'
+            rekening: '0113011847'
         },
         {
             id: 2,
