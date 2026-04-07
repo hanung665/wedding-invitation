@@ -57,6 +57,10 @@
     <link rel="stylesheet" href="src/css/mediaQueries.css">
 
     <title>Undangan Pernikahan</title>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiQ_GbLqD0lJvnwbnQAjL5MhNqd5g8YKM&libraries=maps,marker"
+    defer
+        ></script>
 </head>
 <body>
 
@@ -141,6 +145,12 @@
             <div data-aos="zoom-in" data-aos-duration="1000"></div>
             <div data-aos="zoom-in" data-aos-duration="1000"></div>
         </div>
+        
+        <gmp-map
+            center="37.4220656,-122.0840897"
+            zoom="10"
+            map-id="DEMO_MAP_ID"
+            style="height: 500px"></gmp-map>
         <a href="" role="link" target="_blank" aria-label="Lihat google maps" data-aos="zoom-in"
            data-aos-duration="1000">
             <i class="bx bxs-map-alt" aria-hidden="true"></i>
