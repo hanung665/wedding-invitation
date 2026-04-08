@@ -6,7 +6,7 @@ export const data = {
             child: 'Putra pertama',
             father: 'Drs. Maruto Subahagija',
             mother: 'Almh. Istantina',
-            image: './src/assets/images/cowo.png'
+            image: './src/assets/images/cowo.jpeg'
         },
         P: {
             id: 2,
@@ -14,10 +14,10 @@ export const data = {
             child: 'Putri satu-satunya',
             father: 'Gatot Yunanto',
             mother: 'Soekesi',
-            image: './src/assets/images/cewe.png'
+            image: './src/assets/images/cewe.jpeg'
         },
 
-        couple: './src/assets/images/couple.png'
+        couple: './src/assets/images/couple.jpeg'
     },
 
     time: {
@@ -52,23 +52,23 @@ export const data = {
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/1.png'
+            image: './src/assets/images/1.jpeg'
         },
         {
             id: 2,
-            image: './src/assets/images/2.png'
+            image: './src/assets/images/2.jpeg'
         },
         {
             id: 3,
-            image: './src/assets/images/3.png'
+            image: './src/assets/images/3.jpeg'
         },
         {
             id: 4,
-            image: './src/assets/images/4.png'
+            image: './src/assets/images/4.jpeg'
         },
         {
             id: 5,
-            image: './src/assets/images/5.png'
+            image: './src/assets/images/5.jpeg'
         }
     ],
 
@@ -81,9 +81,9 @@ export const data = {
         },
         {
             id: 2,
-            name: 'Ipsum Lorem',
+            name: 'Hanung A. Wijaya',
             icon: './src/assets/images/bri.png',
-            rekening: '12345678'
+            rekening: '050701015623504'
         },
     ],
 
