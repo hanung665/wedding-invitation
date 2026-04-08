@@ -1,6 +1,6 @@
 :root {
     --primary-font-color: '#212529';
-    --bg-color: #f8f9fa;
+    --bg-color: #4bd08e;
 
     --fontSize-heading-lg: 3rem;
     --fontSize-heading-base: 2.8rem;
@@ -46,8 +46,8 @@ p {
 }
 
 .audio button {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     border: none;
     background-color: #fff;
