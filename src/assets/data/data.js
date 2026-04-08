@@ -35,7 +35,7 @@ export const data = {
             year: '2026',
             month: 'Juni',
             date: '1',
-            day: 'Semim',
+            day: 'Senin',
             hours: {
                 start: '10.00',
                 finish: '17.00'
