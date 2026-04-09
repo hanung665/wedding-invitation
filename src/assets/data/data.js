@@ -2,19 +2,20 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Hanung Adi Wijaya',
-            child: 'Putra pertama',
-            father: 'Drs. Maruto Subahagija',
-            mother: 'Almh. Istantina',
-            image: './src/assets/images/cowo.jpeg'
-        },
-        P: {
-            id: 2,
             name: 'Dita Yessica Rahayuningtyas',
-            child: 'Putri satu-satunya',
+            child: 'Putri Tunggal',
             father: 'Gatot Yunanto',
             mother: 'Soekesi',
             image: './src/assets/images/cewe.jpeg'
+        },
+        P: {
+            id: 2,
+            name: 'Hanung Adi Wijaya',
+            child: 'Putra Pertama',
+            father: 'Drs. Maruto Subahagija',
+            mother: 'Almh. Istantina',
+            image: './src/assets/images/cowo.jpeg'
+            
         },
 
         couple: './src/assets/images/couple.jpeg'
