@@ -1,3 +1,7 @@
+# Undangan Resepsi Pernikahan Hanung dan Dita
+
+Ini adalah proyek pribadi dalam rangka pernikahan saya (Hanung) dengan Dita.
+
 ## Fitur ✨
 
 - 📊 **Penyimpanan Data**: Menggunakan Google Sheets API untuk menyimpan dan mengelola data undangan.
