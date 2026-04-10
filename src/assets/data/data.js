@@ -4,7 +4,7 @@ export const data = {
             id: 1,
             name: 'Dita Yessica Rahayuningtyas',
             child: 'Putri Tunggal',
-            father: 'Gatot Yunanto',
+            father: 'Gatot Yunarto',
             mother: 'Soekesi',
             image: './src/assets/images/cewe.png'
         },
