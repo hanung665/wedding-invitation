@@ -197,8 +197,9 @@
 
 .wishas svg:nth-of-type(1){
     position: absolute;
+    width: 100%;
     z-index: -10;
-    /* top: -12rem; */
+    top: -12rem; 
     left: 0;
     right: 0;
 }
