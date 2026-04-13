@@ -89,7 +89,7 @@ export const data = {
         {
             id: 3,
             name: 'BTC Native Segwit wallet (Hanung)',
-            icon: './src/assets/images/btc.png',
+            icon: './src/assets/images/bitcoin.png',
             rekening: 'bc1qcht3epwkz8hu9gnpc2ep2tuzr7xz2ca0cat9tf'
         },
         {
