@@ -26,7 +26,7 @@
     margin-top: 2rem;
 }
 
-.time a {
+.time a + a {
     padding: 0.5rem 1rem;
     color: #fff;
     font-size: 1rem;
