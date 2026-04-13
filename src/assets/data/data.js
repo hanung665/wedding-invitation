@@ -26,7 +26,10 @@ export const data = {
             year: '2026',
             month: 'Mei',
             date: '31',
-            day: 'Minggu',
+            jyear: '1959',
+            jmonth: 'Besar',
+            jdate: '14',
+            day: 'Minggu Pon',
             hours: {
                 start: '16.00',
                 finish: '17.00'
@@ -36,7 +39,10 @@ export const data = {
             year: '2026',
             month: 'Juni',
             date: '1',
-            day: 'Senin',
+            jyear: '1959',
+            jmonth: 'Besar',
+            jdate: '15',
+            day: 'Senin Wage',
             hours: {
                 start: '10.00',
                 finish: '17.00'
