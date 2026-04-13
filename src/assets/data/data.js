@@ -86,6 +86,18 @@ export const data = {
             icon: './src/assets/images/bri.png',
             rekening: '050701015623504'
         },
+        {
+            id: 3,
+            name: 'BTC Native Segwit wallet (Hanung)',
+            icon: './src/assets/images/btc.png',
+            rekening: 'bc1qcht3epwkz8hu9gnpc2ep2tuzr7xz2ca0cat9tf'
+        },
+        {
+            id: 4,
+            name: 'ETH wallet (Dita)',
+            icon: './src/assets/images/eth.png',
+            rekening: '0x05128dCD21f8b2866ade5c9901C85211245484Cc'
+        },
     ],
 
     audio: './src/assets/audio/wedding.mp3',
