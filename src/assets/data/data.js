@@ -106,9 +106,9 @@ export const data = {
         },
         {
             id: 5,
-            name: 'QRIS',
+            name: 'BM Technology (Hanung)',
             icon: './src/assets/images/QRIS-s.png',
-            rekening: '<img src="./src/assets/images/QRIS-mdr.png" width="200">'
+            rekening: '<img src="./src/assets/images/QRIS-mdr.png">'
         },
     ],
 
