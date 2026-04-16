@@ -107,8 +107,8 @@ export const data = {
         {
             id: 5,
             name: 'QRIS',
-            icon: './src/assets/images/qris-s.png',
-            rekening: '<img src="./src/assets/images/QRIS-mdr.png">'
+            icon: './src/assets/images/QRIS-s.png',
+            rekening: '<img src="./src/assets/images/QRIS-mdr.png" width="200">'
         },
     ],
 
