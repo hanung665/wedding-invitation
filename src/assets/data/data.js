@@ -94,15 +94,21 @@ export const data = {
         },
         {
             id: 3,
-            name: 'BTC Native Segwit wallet (Hanung)',
+            name: 'BTC Native Segwit wallet',
             icon: './src/assets/images/bitcoin.png',
             rekening: 'bc1qcht3epwkz8hu9gnpc2ep2tuzr7xz2ca0cat9tf'
         },
         {
             id: 4,
-            name: 'ETH wallet (Dita)',
+            name: 'ETH wallet',
             icon: './src/assets/images/eth.png',
             rekening: '0x05128dCD21f8b2866ade5c9901C85211245484Cc'
+        },
+        {
+            id: 5,
+            name: 'QRIS',
+            icon: './src/assets/images/qris-s.png',
+            rekening: '<img src="./src/assets/images/QRIS-mdr.png">'
         },
     ],
 
