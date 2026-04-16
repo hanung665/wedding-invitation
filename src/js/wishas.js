@@ -108,7 +108,7 @@ export const wishas = () => {
         const comentar = {
             id: generateRandomId(),
             name: e.target.name.value,
-            status: e.target.status.value === 'y' ? 'Hadir' : 'Tidak Hadir',
+            status: e.target.status.value === 'y' ? 'Hadir' : 'Berhalangan Hadir',
             message: e.target.message.value,
             date: getCurrentDateTime(),
             color: generateRandomColor(),
