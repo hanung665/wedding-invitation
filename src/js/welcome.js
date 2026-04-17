@@ -25,7 +25,7 @@ export const welcome = () => {
         const paramof = getQueryParameter('of');
 
         if (params && paramof) {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span><br><br><span>${paramof}</span>`;
+            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span><br><span>${paramof}</span>`;
             name.value = params + ' - ' + paramof;
         }
         else if (params){
