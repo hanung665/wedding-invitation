@@ -17,13 +17,16 @@
     margin-top: 1rem;
     width: 100%;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1rem;
 }
 
 .wishas div:nth-of-type(1) > div figure {
-    width: 24rem;
+    //width: 24rem;
+    min-width: 23rem;
+    max-width: 30rem;
     text-align: center;
     border-radius: 15px;
     padding: 1rem 0;
@@ -43,8 +46,8 @@
 }
 
 .wishas div:nth-of-type(1) > div figure figcaption img {
-    width: 20rem;
-    height: 30rem;
+    width: 18rem;
+    height: 27rem;
     object-fit: contain;
     margin-bottom: 1rem;
 }
