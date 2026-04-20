@@ -22,8 +22,7 @@ export const wishas = () => {
                 <img src=${data.icon} alt="bank icon animation">
                 <!-- /* <figcaption>No. Rekening {data.rekening.slice(0, 8)}xxxx <br> */ -->
                 <figcaption>${data.rekening} <br>${data.name}</figcaption>
-                ${console.log(data.rekening)}
-                <button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>
+                ${data.rekening.startsWith("<") ? " " : <button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>}
            </figure>`
     );
 
