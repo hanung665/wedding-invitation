@@ -22,8 +22,9 @@ export const wishas = () => {
                 <img src=${data.icon} alt="bank icon animation">
                 <!-- /* <figcaption>No. Rekening {data.rekening.slice(0, 8)}xxxx <br> */ -->
                 <figcaption>${data.rekening} <br>${data.name}</figcaption>
-                ${data.rekening.startsWith('<img') ? " " : <button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>}
-           </figure>`
+                ${console.loga(data.rekening.startsWith('<img'))}
+                ${data.rekening.startsWith('<img') ? " " : '<button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>'}
+                </figure>`
     );
 
     const initialBank = () => {
