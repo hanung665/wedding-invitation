@@ -33,7 +33,7 @@ export const welcome = () => {
             name.value = params;
         }
         else if (paramof) {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span></span><span>${paramof}</span>`;
+            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span> <br> </span><span>${paramof}</span>`;
             name.value = ' - ' + paramof;
         }
 
