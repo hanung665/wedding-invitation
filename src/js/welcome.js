@@ -32,6 +32,11 @@ export const welcome = () => {
             weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
             name.value = params;
 
+        else if (paramof) {
+            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span></span><span>${paramof}</span>`;
+            name.value = ' - ' + paramof;
+        }
+
         } else {
             /* weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`; */
             weddingToElement.innerHTML = ` <br><span> </span>`;
