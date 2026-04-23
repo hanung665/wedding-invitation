@@ -18,6 +18,7 @@ export const comentarService = {
             message: message,
             date: date,
             color: color,
+            to:to
         };
 
         try {
