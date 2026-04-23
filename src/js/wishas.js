@@ -106,7 +106,7 @@ export const wishas = () => {
         e.preventDefault();
         buttonForm.textContent = 'Loading...';
         const to = getQueryParameter('to');
-        console.log(to);
+        
         const comentar = {
             id: generateRandomId(),
             name: e.target.name.value,
@@ -116,6 +116,7 @@ export const wishas = () => {
             color: generateRandomColor(),
             to: to
         };
+        console.log(comentar);
 
         try {
             const response = await comentarService.getComentar();
