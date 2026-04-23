@@ -105,7 +105,8 @@ export const wishas = () => {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         buttonForm.textContent = 'Loading...';
-
+        const to = getQueryParameter('to');
+        console.log(to);
         const comentar = {
             id: generateRandomId(),
             name: e.target.name.value,
@@ -113,7 +114,7 @@ export const wishas = () => {
             message: e.target.message.value,
             date: getCurrentDateTime(),
             color: generateRandomColor(),
-            to: getQueryParameter('to')
+            to: to
         };
 
         try {
