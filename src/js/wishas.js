@@ -4,7 +4,8 @@ import {
     generateRandomColor,
     generateRandomId,
     getCurrentDateTime,
-    renderElement
+    renderElement,
+    getQueryParameter
 } from "../utils/helper.js";
 import {data} from "../assets/data/data.js";
 import {comentarService} from "../services/comentarService.js";
