@@ -22,6 +22,7 @@ export const comentarService = {
         };
 
         try {
+            console.log(comentar);
             const response = await fetch(data.api, {
                 method: 'POST',
                 mode: 'no-cors',
