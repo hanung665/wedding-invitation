@@ -24,7 +24,7 @@
 }
 
 .wishas div:nth-of-type(1) > div figure {
-    //width: 24rem;
+    /* width: 24rem; */
     min-width: 23rem;
     max-width: 30rem;
     text-align: center;
