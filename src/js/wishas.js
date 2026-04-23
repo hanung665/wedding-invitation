@@ -107,6 +107,7 @@ export const wishas = () => {
 
         const comentar = {
             id: generateRandomId(),
+            to: getQueryParameter('to'),
             name: e.target.name.value,
             status: e.target.status.value === 'y' ? 'Hadir' : 'Berhalangan Hadir',
             message: e.target.message.value,
