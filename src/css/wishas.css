@@ -46,8 +46,8 @@
 }
 
 .wishas div:nth-of-type(1) > div figure figcaption img {
-    width: 12rem;
-    height: 16rem;
+    width: 9rem;
+    height: 12rem;
     object-fit: contain;
     margin-bottom: 1rem;
 }
