@@ -65,9 +65,9 @@ export const home = () => {
     const initializeHome = () => {
         const {bride, time, link} = data;
         figureElement.innerHTML = generateFigureContent({bride});
-        timeElement.innerHTML = generateTimeContent({time});
+        //timeElement.innerHTML = generateTimeContent({time});
         calendarAnchor.href = link.calendar;
-        startCountdown(homeTime, time);
+        //startCountdown(homeTime, time);
     };
 
     initializeHome();
