@@ -23,7 +23,7 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2026',
+            year: '2027',
             month: 'Mei',
             date: '31',
             jyear: '1959',
@@ -36,7 +36,7 @@ export const data = {
             }
         },
         reception: {
-            year: '2026',
+            year: '2027',
             month: 'Juni',
             date: '1',
             jyear: '1959',
