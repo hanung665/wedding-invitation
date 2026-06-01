@@ -17,6 +17,6 @@ export const time = () => {
     receptionDiv.innerHTML = createTimeListItem('Resepsi', data.time.reception);
 
     addressParagraph.textContent = data.time.address;
-    //mapLink.href = data.link.map;
+    mapLink.href = data.link.map;
     
 };
