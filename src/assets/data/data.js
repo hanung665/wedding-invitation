@@ -4,16 +4,16 @@ export const data = {
             id: 1,
             name: 'Dita Yessica Rahayuningtyas',
             child: 'Putri Tunggal',
-            father: 'Gatot Yunarto',
-            mother: 'Soekesi',
+            father: 'pak Gatot',
+            mother: 'bu Kes',
             image: './src/assets/images/cewe.png'
         },
         P: {
             id: 2,
             name: 'Hanung Adi Wijaya',
             child: 'Putra Pertama',
-            father: 'Drs. Maruto Subahagija',
-            mother: 'Almh. Istantina',
+            father: 'Pak Bagyo',
+            mother: 'Almh. bu Is',
             image: './src/assets/images/cowo.png'
             
         },
